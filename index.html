@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+	<style>
+		html{
+		    height: 100%;
+		}
+		body{
+		    height: 100%;
+		    font-family: 'JetBrains Mono Medium';
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    background-color: black;
+		}
+		.form-wrapper{
+		    width: 300px;
+		    background-color: rgb(41,45,62);
+		    color: #ffffff;
+		    border-radius: 2px;
+		    padding: 50px;
+		}
+		.form-wrapper .header{
+		    text-align: center;
+		    font-size: 35px;
+		    text-transform: uppercase;
+		    line-height: 100px;
+		}
+		.form-wrapper .action{
+		    display: flex;
+		    justify-content: center;
+		}
+		.form-wrapper .action .btn{
+		    width: 60%;
+		    text-transform: uppercase;
+		    border: 2px solid #FFFFFF;
+		    text-align: center;
+		    line-height: 50px;
+		    border-radius: 30px;
+		    cursor: pointer;
+		    transition:0.2s;
+		}
+	</style>
+</head>
+
+<body>
+<div class="form-wrapper" align="center" >
+	<div class="header">
+	        TA反馈系统
+	</div>
+   <div class="action">
+       <div class="btn"><a href="FindStudentById.php">学号查询学生</a></div>
+   </div>
+    <div class="action">
+        <div class="btn"><a href="InsertStudent.php">添加学生记录</a></div>
+    </div>
+	<div class="action">
+	    <div class="btn"><a href="StudentList.php">查看学生列表</a></div>
+	</div>
+    
+    
+</div>
+</body>
+</html>

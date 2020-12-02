@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户注册</title>
+		<style>
+			html{
+			    height: 100%;
+			}
+			body{
+			    height: 100%;
+			    font-family: 'JetBrains Mono Medium';
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    background-color: black;
+			}
+			.form-wrapper{
+			    width: 600px;
+			    background-color: rgb(41,45,62);
+			    color: #ffffff;
+			    border-radius: 6px;
+			    padding: 100px;
+			}
+			.form-wrapper .header{
+			    text-align: center;
+			    font-size: 35px;
+			    text-transform: uppercase;
+			    line-height: 100px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="form-wrapper" align="center" >		
+			
+					<form action="regist.php" method="post">
+						
+							<p >用户名<input type="text" name="username" placeholder="" /></p>
+							
+							<span ></span>
+						
+							<p >输入密码<input type="password" name="password" placeholder="请输入密码" /></p>
+							
+							<span >(由6-16的字母、数字、符号组成)</span>
+						
+						
+							<p >确认密码<input type="password" name="repassword" placeholder="请再次输入密码" /></p>
+												
+						
+							
+							<p>
+								我有阅读并同意
+								<span>《网站服务协议》</span>
+							</p>
+						
+						<button type="submit" value="注册" class="psw-btn">立即注册</button>
+						<p >
+							已有账号？请
+							<a href="login.html">登录</a>
+						</p>
+					</form>
+				
+				</div>
+	</body>
+</html>
